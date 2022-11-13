@@ -20,7 +20,7 @@ We define the three states that an employee can have
 
 One benefit of this pattern is that we can easily use these states and this handler with other classes.
 
-# Solution
+# Solution Description
 
 As the restrictions say, I could not use a datetime library that would have simplified things a lot, so in order to compare the times correctly, i treat the hours as if they were real numbers, that is, if the time is 01:15, then I converted it to 1.15 and defined restrictions so that it works like a normal clock, that is, in ranges of up to 60.
 
